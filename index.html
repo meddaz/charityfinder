@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Charity Finder</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Exo&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Domine&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Charity Finder</h1>
+        <h2>Powered by GlobalGiving API</h2>
+    </header>
+    <main>
+        <div id="searchByKeyword">
+            <br>
+            <input type="text" id="keywords">
+
+
+
+            <br>
+
+            <button id="button" onclick="keywordSearch()">Search Keywords</button>
+            <br>
+            <div id="searchTerm"></div>
+            <div id="results"></div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+body {
+    background-color: #030303;
+    color: #707019;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+
+}
+ 
+
+input {
+    border-radius: 4px;
+}
+#searchTerm {
+    font-family: 'Domine', serif;
+
+}
+.result {
+border: 2px solid #white;
+border-radius: 5px;
+padding: 10px;
+width: 400px;
+height: 400px;
+display: inline-block;
+font-family: 'Domine', serif;
+}
+
+#results {
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
